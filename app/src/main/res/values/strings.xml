@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Floating Equalizer Pro</string>
+    <string name="equalizer_title">Equalizer</string>
+    <string name="effects_title">Effects</string>
+    <string name="profiles_title">Profiles</string>
+    <string name="bass_boost_enabled">Bass Boost</string>
+    <string name="bass_boost_description">Bass boost is an audio effect to boost or amplify low frequencies of the sound.</string>
+    <string name="virtualization_enabled">Virtualization</string>
+    <string name="virtualization_description">Virtualization is an audio effect to virtualize audio channels.</string>
+    <string name="loud_enabled">Speaker Booster</string>
+    <string name="loud_description">Speaker Booster is an audio effect for increasing audio loudness</string>
+    <string name="reverb_enabled">Reverberation</string>
+    <string name="reverb_description">A Reverb simulates the component of sound that results from reflections from surrounding walls or objects.</string>
+    <string name="equalizer_enabled">Enabled</string>
+    <string name="equalizer_description">Equalizer is an audio filter to change the frequency envelope of the sound.</string>
+    <string name="reverbpreset_none">Reverberation off</string>
+    <string name="reverbpreset_smallroom">Small room</string>
+    <string name="reverbpreset_mediumroom">Medium room</string>
+    <string name="reverbpreset_largeroom">Large room</string>
+    <string name="reverbpreset_mediumhall">Medium hall</string>
+    <string name="reverbpreset_largehall">Large hall</string>
+    <string name="reverbpreset_plate">Plate</string>
+    <string name="add_profile">Save Preset</string>
+    <string name="profile_name">Preset Name</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="delete_profile">Delete profile</string>
+    <string name="turn_off">Exit</string>
+    <string name="select_music_sample">Select Music</string>
+    <string name="play_sample">Play Sample</string>
+    <string name="stop_sample">Stop</string>
+    <string name="info">The float option will place a floating button, which will hover over your phones screen whilst using the phone as normal, it also acts as a shortcut so if you tap and hold the button for a second, it will open the equalizer</string>
+    <string name="info2">Choosing static will open the equalizer straight away and will place a notification which will run in the forground so even once you exit the equalizer you quickly go back by clicking the notification</string>
+    <string name="firstUse">Due to this app being able to modify almost every audio app, you MUST make sure that you have absolutely NO other equalizers running!</string>
+    <string name="rate">Rate and Review</string>
+    <string name="ads">Remove Ads</string>
+    <string name="action_settings">Go back to options</string>
+    <string name="enabledisable">Enable / Disable</string>
+    <string name="Reset">Reset</string>
+    <string name="bass_boost">Bass Boost</string>
+    <string name="stop1">Exit</string>
+    <string name="stop2">Exit</string>
+    <string name="hide">Hide Icon</string>
+    <string name="mini">Minimize</string>
+    <string name="reset">Reset</string>
+    <string name="backToEQ">Back To EQ</string>
+</resources>

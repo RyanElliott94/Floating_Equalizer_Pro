@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Floating Equalizer</string>
+    <string name="equalizer_title">Эквалайзер</string>
+    <string name="effects_title">Эффекты</string>
+    <string name="profiles_title">Профили</string>
+    <string name="bass_boost_enabled">Усиление бассов</string>
+    <string name="bass_boost_description">Звуковой эффект усиливающий низкие частоты.</string>
+    <string name="virtualization_enabled">Виртуализация</string>
+    <string name="virtualization_description">Эффект расширения стерео-эффекта.</string>
+    <string name="reverb_enabled">Reverberation</string>
+    <string name="reverb_description">A Reverb simulates the component of sound that results from reflections from surrounding walls or objects.</string>
+    <string name="equalizer_enabled">Эквалайзер</string>
+    <string name="equalizer_description">Позволяет изменять амплитудно-частотную характеристику звукового сигнала.</string>
+    <string name="reverbpreset_none">Reverberation off</string>
+    <string name="reverbpreset_smallroom">Small room</string>
+    <string name="reverbpreset_mediumroom">Medium room</string>
+    <string name="reverbpreset_largeroom">Large room</string>
+    <string name="reverbpreset_mediumhall">Medium hall</string>
+    <string name="reverbpreset_largehall">Large hall</string>
+    <string name="reverbpreset_plate">Plate</string>
+    <string name="add_profile">Сохранить стиль</string>
+    <string name="profile_name">Название</string>
+    <string name="edit_profile">Редактировать</string>
+    <string name="delete_profile">Удалить</string>
+    <string name="turn_off">выход</string>
+    <string name="select_music_sample">Выберите музыку</string>
+    <string name="play_sample">Проиграть пример</string>
+    <string name="stop_sample">Стоп</string>
+    <string name="ads">Удалить объявления</string>
+</resources>

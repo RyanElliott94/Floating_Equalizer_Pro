@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="#243342"
+    android:textColor="#f7f7f7"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <ListView android:id="@+id/profile_list" 
+        android:layout_width="fill_parent" 
+        android:layout_height="0dp"
+        android:textColor="#f7f7f7"
+        android:layout_weight="1.0" />
+    
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="EqualizerTheme" parent="@android:style/Theme" />
+    <style name="thinSeekBar" parent="android:Widget.Material.Light.SeekBar">
+        <item name="android:maxHeight">3.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/seekbar_progress</item>
+        <item name="android:minHeight">3.0dip</item>
+    </style>
+
+    <style name="mainTheme" parent="@style/Theme.MaterialComponents.Light">
+        <item name="checkboxStyle">@style/Widget.MaterialComponents.CompoundButton.CheckBox</item>
+        <item name="popupMenuStyle">@style/Widget.MaterialComponents.PopupMenu</item>
+        <item name="android:contextPopupMenuStyle">@style/Widget.MaterialComponents.PopupMenu.ContextMenu</item>
+        <item name="actionOverflowMenuStyle">@style/Widget.MaterialComponents.PopupMenu.Overflow</item>
+        <item name="android:enforceStatusBarContrast" tools:targetApi="q">true</item>
+        <item name="isMaterialTheme">true</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:colorAccent">@color/colorPrimary</item>
+        <item name="android:color">#f7f7f7</item>
+    </style>
+
+    <style name="whiteStatus" parent="mainTheme">
+        <item name="android:colorControlNormal">#f7f7f7</item>
+        <item name="android:navigationBarColor">#243342</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#f7f7f7</item>
+    </style>
+
+    <style name="optionTheme" parent="mainTheme">
+        <item name="android:navigationBarColor">#243342</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#243342</item>
+    </style>
+
+    <style name="blueStatus" parent="mainTheme">
+        <item name="android:navigationBarColor">#000</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#243342</item>
+    </style>
+
+    <style name="ToolBarBlack">
+        <item name="android:colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="ToolBarWhite">
+        <item name="android:colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="ToolbarStyle">
+        <item name="titleTextColor">#fff</item>
+        <item name="navigationIcon">?attr/homeAsUpIndicator</item>
+    </style>
+</resources>

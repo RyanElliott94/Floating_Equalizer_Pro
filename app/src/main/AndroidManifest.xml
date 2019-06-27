@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.simplistic.floatingequalizerpro"
+    android:versionCode="9"
+    android:versionName="1.8"
+    >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/my_backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:theme="@style/mainTheme">
+
+        <activity
+            android:label="@string/app_name"
+            android:name="com.simplistic.floatingequalizerpro.Options"
+            android:theme="@style/optionTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.CATEGORY_CONTENT_MUSIC"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.simplistic.floatingequalizerpro.MainActivity" android:theme="@style/whiteStatus" android:screenOrientation="portrait"/>
+        <activity android:name="com.simplistic.floatingequalizerpro.EqualizerActivity" android:theme="@style/blueStatus" android:screenOrientation="portrait"/>
+        <service android:enabled="true" android:name="com.simplistic.floatingequalizerpro.service.Floating"/>
+
+    </application>
+</manifest>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bass_boost" type="id"/>
+    <item name="bass_boost_enabled" type="id"/>
+    <item name="bass_boost_val" type="id"/>
+    <item name="virtualizier" type="id"/>
+    <item name="virtualization_enabled" type="id"/>
+    <item name="virtualization_val" type="id"/>
+    <item name="equalizer" type="id"/>
+    <item name="equalizer_enabled" type="id"/>
+    <item name="equalizer_bands" type="id"/>
+    <item type="id" name="pager"/>
+    <item type="id" name="ad_view"/>
+    <item type="id" name="music_list"/>
+    <item type="id" name="music_title"/>
+    <item type="id" name="music_duration"/>
+    <item type="id" name="music_artist"/>
+    <item type="id" name="profile_list"/>
+    <item type="id" name="profile_edit"/>
+    <item type="id" name="title"/>
+    <item type="id" name="active"/>
+    <item type="id" name="play_sound"/>
+    <item type="id" name="stop_sound"/>
+    <item type="id" name="add_profile"/>
+    <item type="id" name="turn_off"/>
+    <item type="id" name="edit_profile"/>
+    <item type="id" name="delete_profile"/>
+    <item type="id" name="staticLayout" />
+    <item type="id" name="floatLayout" />
+    <item type="id" name="whatstatic" />
+    <item type="id" name="whatfloat" />
+    <item type="id" name="choose" />
+    <item type="id" name="float1" />
+    <item type="id" name="static1" />
+    <item type="id" name="ads" />
+    <item type="id" name="rate" />
+    <item type="id" name="action_settings" />
+    <item type="id" name="staticLayout2"/>
+    <item type="id" name="enabled"/>
+    <item type="id" name="flat"/>
+    <item type="id" name="bass_boost_label"/>
+    <item type="id" name="scroll"/>
+    <item type="id" name="scrollLayout"/>
+    <item type="id" name="slider_label_1"/>
+    <item type="id" name="slider_1"/>
+    <item type="id" name="slider_label_2"/>
+    <item type="id" name="slider_2"/>
+    <item type="id" name="slider_label_3"/>
+    <item type="id" name="slider_3"/>
+    <item type="id" name="slider_label_4"/>
+    <item type="id" name="currentPreset"/>
+    <item type="id" name="slider_4"/>
+    <item type="id" name="slider_label_5"/>
+    <item type="id" name="slider_5"/>
+    <item type="id" name="slider_label_6"/>
+    <item type="id" name="slider_6"/>
+    <item type="id" name="slider_label_7"/>
+    <item type="id" name="slider_7"/>
+    <item type="id" name="slider_label_8"/>
+    <item type="id" name="slider_8"/>
+    <item type="id" name="slider_label_9"/>
+    <item type="id" name="slider_9"/>
+    <item type="id" name="slider_label_10"/>
+    <item type="id" name="slider_10"/>
+    <item type="id" name="listLayout"/>
+    <item type="id" name="presetText"/>
+    <item type="id" name="spinner"/>
+    <item type="id" name="adView"/>
+    <item type="id" name="collapse"/>
+    <item type="id" name="close"/>
+    <item type="id" name="option"/>
+    <item type="id" name="imageView1"/>
+    <item type="id" name="optionBut"/>
+    <item type="id" name="whatBasic"/>
+    <item type="id" name="basic"/>
+    <item type="id" name="advanced"/>
+    <item type="id" name="whatAdvanced"/>
+    <item type="id" name="TopBanner"/>
+    <item type="id" name="preset"/>
+    <item type="id" name="stop"/>
+    <item type="id" name="mini"></item>
+    <item type="id" name="reset"></item>
+    <item type="id" name="hide_icon"></item>
+    <item type="id" name="back_to_eq"></item>
+</resources>

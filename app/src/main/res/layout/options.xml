@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#243342"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TopBanner"
+        android:layout_marginTop="50dp">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:src="@drawable/music" />
+
+    </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TopBanner"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/whatBasic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/basic"
+                android:layout_centerInParent="true"
+                android:text="What's Basic?"
+                android:textColor="#ffffffff" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/advanced"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/basic"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:text="Advanced"
+                android:textColor="#fff"
+                android:textSize="45sp"
+                app:strokeColor="@color/colorPrimary"
+                app:strokeWidth="3dp"
+                app:rippleColor="#243342"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+            <TextView
+                android:id="@+id/whatAdvanced"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/advanced"
+                android:layout_centerInParent="true"
+                android:text="What's Advanced?"
+                android:textColor="#ffffffff" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/basic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="@color/design_default_color_secondary"
+                android:text="Basic"
+                android:textColor="#fff"
+                android:textSize="45sp"
+                app:strokeColor="@color/colorPrimary"
+                app:strokeWidth="3dp"
+                app:rippleColor="#243342"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        </RelativeLayout>
+</RelativeLayout>

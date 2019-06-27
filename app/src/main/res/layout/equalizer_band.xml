@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="#243342">
+    
+    <TextView android:textSize="11.0sp" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="20khz"
+        android:textColor="#f7f7f7"
+        android:layout_weight="1.0" />
+    
+    <com.simplistic.floatingequalizerpro.ui.widget.VerticalSeekBar
+        android:layout_width="wrap_content" 
+        android:layout_height="500dp"
+        android:progress="0"
+        android:secondaryProgress="100"
+        />
+    
+    <TextView android:textSize="10.0sp" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="1.0dip" 
+        android:layout_marginRight="1.0dip" 
+        android:text="20khz"
+        android:textColor="#f7f7f7"
+        android:layout_weight="1.0" />
+</LinearLayout>

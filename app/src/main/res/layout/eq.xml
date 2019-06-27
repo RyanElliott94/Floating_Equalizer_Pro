@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:id="@id/staticLayout2"
+    android:background="#243342"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#243342"
+        android:navigationIcon="?attr/homeAsUpIndicator"
+        android:theme="@style/ToolBarWhite"/>
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/enabled"
+            android:background="@null"
+            android:saveEnabled="true"
+            android:text=""
+            android:textColor="#f7f7f7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10.0dip" />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:textSize="20.0sp"
+        android:textColor="#f7f7f7"
+        android:id="@id/bass_boost_label"
+        android:paddingLeft="25.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bass_boost" />
+
+    <SeekBar
+        android:id="@id/bass_boost"
+        android:paddingBottom="20.0dip"
+        android:saveEnabled="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:secondaryProgress="100"
+        style="@style/thinSeekBar" />
+
+    <ScrollView
+        android:id="@id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="250.0dip">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/scrollLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/currentPreset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text=""
+                android:layout_marginTop="90dp"
+                android:textColor="#f7f7f7"
+                android:textSize="40sp"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+            <TextView
+                android:textColor="#f7f7f7"
+                android:id="@id/slider_label_6"
+                android:paddingLeft="25.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+            <SeekBar
+                android:id="@id/slider_6"
+                android:paddingBottom="20.0dip"
+                android:saveEnabled="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:progress="0"
+                android:secondaryProgress="100"
+                style="@style/thinSeekBar" />
+
+            <TextView
+                android:textColor="#f7f7f7"
+                android:id="@id/slider_label_7"
+                android:paddingLeft="25.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <SeekBar
+                android:id="@id/slider_7"
+                android:paddingBottom="20.0dip"
+                android:saveEnabled="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:progress="0"
+                android:secondaryProgress="100"
+                style="@style/thinSeekBar" />
+
+            <TextView
+                android:textColor="#f7f7f7"
+                android:id="@id/slider_label_8"
+                android:paddingLeft="25.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <SeekBar
+                android:id="@id/slider_8"
+                android:paddingBottom="20.0dip"
+                android:saveEnabled="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:progress="0"
+                android:secondaryProgress="100"
+                style="@style/thinSeekBar" />
+
+            <TextView
+                android:textColor="#f7f7f7"
+                android:id="@id/slider_label_9"
+                android:paddingLeft="25.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <SeekBar
+                android:id="@id/slider_9"
+                android:paddingBottom="20.0dip"
+                android:saveEnabled="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:progress="0"
+                android:secondaryProgress="100"
+                style="@style/thinSeekBar" />
+
+            <TextView
+                android:textColor="#f7f7f7"
+                android:id="@id/slider_label_10"
+                android:paddingLeft="25.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:text="" />
+
+            <SeekBar
+                android:id="@id/slider_10"
+                android:paddingBottom="20.0dip"
+                android:saveEnabled="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:progress="0"
+                android:secondaryProgress="100"
+                style="@style/thinSeekBar" />
+
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/listLayout"
+        android:background="#f7f7f7"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@id/presetText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Presets"
+            android:textColor="#4c4c4c"
+            android:textSize="45.0sp" />
+
+        <ListView
+            android:id="@id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:divider="@null"
+            android:layout_weight="0.93" />
+
+    </LinearLayout>
+
+</LinearLayout>

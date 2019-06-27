@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/whiteStatus"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#f7f7f7"
+        android:titleTextColor="#fff"
+        android:navigationIcon="?attr/homeAsUpIndicator"
+        android:theme="@style/ToolBarBlack">
+    </Toolbar>
+
+    <TabHost android:id="@android:id/tabhost"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+       <LinearLayout android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TabWidget android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#f7f7f7"/>
+
+            <FrameLayout android:id="@android:id/tabcontent"
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                android:layout_weight="0.0"
+                android:textColor="#000" />
+
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0" />
+
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

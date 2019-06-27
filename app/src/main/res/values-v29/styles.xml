@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="optionTheme" parent="mainTheme">
+        <item name="android:navigationBarColor">#243342</item>
+        <item name="android:enforceStatusBarContrast">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#243342</item>
+    </style>
+
+    <style name="whiteStatus" parent="mainTheme">
+        <item name="android:colorControlNormal">#f7f7f7</item>
+        <item name="android:navigationBarColor">#243342</item>
+        <item name="android:enforceStatusBarContrast">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">#f7f7f7</item>
+    </style>
+</resources>
